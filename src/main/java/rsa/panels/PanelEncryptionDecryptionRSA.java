@@ -96,7 +96,7 @@ public class PanelEncryptionDecryptionRSA extends JPanel {
         gbcPanelTextInBytesButton.gridx = 0;
         gbcPanelTextInBytesButton.gridy = 0;
         gbcPanelTextInBytesButton.insets = new Insets(5, 5, 10, 5);
-        btnTextInBytes.setPreferredSize(new Dimension(150, 30));
+        btnTextInBytes.setPreferredSize(new Dimension(190, 30));
         btnTextInBytes.setBorder(BorderFactory.createRaisedBevelBorder());
         btnTextInBytes.setBackground(new Color(203, 255, 181));
         btnTextInBytes.addActionListener(e->getTextInBytes());
@@ -127,7 +127,7 @@ public class PanelEncryptionDecryptionRSA extends JPanel {
         gbcPanelLoadNButton.gridx = 0;
         gbcPanelLoadNButton.gridy = 0;
         gbcPanelLoadNButton.insets = new Insets(5, 5, 5, 5);
-        btnLoadN.setPreferredSize(new Dimension(150, 30));
+        btnLoadN.setPreferredSize(new Dimension(190, 30));
         btnLoadN.setBorder(BorderFactory.createRaisedBevelBorder());
         btnLoadN.setBackground(new Color(203, 255, 181));
         btnLoadN.addActionListener(e->loadN());
@@ -198,7 +198,7 @@ public class PanelEncryptionDecryptionRSA extends JPanel {
         gbcPanelEncryptedTextFromFileButton.gridx = 0;
         gbcPanelEncryptedTextFromFileButton.gridy = 0;
         gbcPanelEncryptedTextFromFileButton.insets = new Insets(5, 10, 5, 5);
-        btnEncryptedTextFromFile.setPreferredSize(new Dimension(180, 30));
+        btnEncryptedTextFromFile.setPreferredSize(new Dimension(190, 30));
         btnEncryptedTextFromFile.setBorder(BorderFactory.createRaisedBevelBorder());
         btnEncryptedTextFromFile.setBackground(new Color(203, 255, 181));
         btnEncryptedTextFromFile.addActionListener(e->encryptedText());

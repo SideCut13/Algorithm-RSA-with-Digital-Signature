@@ -5,12 +5,11 @@ import java.awt.*;
 
 public class PanelInstructionDigitalSignature extends JPanel {
     private JLabel lInstruction = new JLabel("Instruction of using Digital Signature");
-    private JTextArea taInstruction = new JTextArea("• First of all we must generate public key.\n" +
-            "and private key in RSA Algorithm Panel\n" +
-            "• Then we must enter text to encrypt in Digital Signature Panel\n" +
-            "• We can change text to bytes using right button\n" +
-            "• We use private key from file in project 'privateKey.txt'\n    and public key from 'publicKey.txt'.\n" +
-            "• We use private key to encrypt text\n    and public key to decrypt.\n");
+    private JTextArea taInstruction = new JTextArea("• First of all generate public key.\n    and private key in RSA Algorithm Panel\n" +
+            "• Then enter text to encrypt in Digital Signature Panel\n" +
+            "• Change text to bytes using right button\n" +
+            "• Get n number, private and public keys from files.\n" +
+            "• Private key is using to encrypt text\n    and public key to decrypt.\n");
     public PanelInstructionDigitalSignature(){
         super(new GridBagLayout());
         setBackground(new Color(0, 208, 166));
