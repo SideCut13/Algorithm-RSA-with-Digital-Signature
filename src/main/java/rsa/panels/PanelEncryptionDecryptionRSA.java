@@ -146,7 +146,7 @@ public class PanelEncryptionDecryptionRSA extends JPanel {
         gbcPanelEncryptedText.gridx = 1;
         gbcPanelEncryptedText.gridy = 0;
         gbcPanelEncryptedText.insets = new Insets(5, 35, 5, 5);
-        tfEncryptedText.setEditable(true);
+        tfEncryptedText.setEditable(false);
         tfEncryptedText.setBorder(BorderFactory.createLoweredBevelBorder());
         tfEncryptedText.setBackground(new Color(255, 255, 255));
         panelEncryptedText.add(tfEncryptedText, gbcPanelEncryptedText);
@@ -186,7 +186,7 @@ public class PanelEncryptionDecryptionRSA extends JPanel {
         gbcPanelEncryptedTextFromFile.gridx = 1;
         gbcPanelEncryptedTextFromFile.gridy = 0;
         gbcPanelEncryptedTextFromFile.insets = new Insets(10, 5, 5, 5);
-        tfEncryptedTextFromFile.setEditable(true);
+        tfEncryptedTextFromFile.setEditable(false);
         tfEncryptedTextFromFile.setBorder(BorderFactory.createLoweredBevelBorder());
         tfEncryptedTextFromFile.setBackground(new Color(255, 255, 255));
         panelEncryptedTextFromFile.add(tfEncryptedTextFromFile, gbcPanelEncryptedTextFromFile);
