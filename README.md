@@ -15,7 +15,7 @@ Project include Swing application in Java. It contains:
 - Instruction od using Digital signature
 
 ## IDE
-- IntelliJ IDEA 2017.2.5
+- IntelliJ IDEA Ultimate 2017.2.5
 
 ## Author
 - [Anna Zdrojewska](https://github.com/SideCut13)
